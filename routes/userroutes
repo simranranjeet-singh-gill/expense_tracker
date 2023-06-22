@@ -1,0 +1,8 @@
+const router= require("express").Router()
+
+
+const addDetail = require("../controller/addController")
+router.post("/add",addDetail)
+
+
+module.exports=router
